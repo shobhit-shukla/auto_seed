@@ -50,12 +50,14 @@ module AutoSeed
 
     def self.generate_sample_value(attribute)
       case attribute
-      when /_id$/
-        1 # Example value, should be replaced with actual logic
       when /_at$/
-        Time.now
+        "'#{Time.now}'"
+      when /_on$/
+        "'#{Date.today}'"
+      when /date$/
+        "'#{Date.today}'"
       else
-        'sample_value'
+        "'sample_value'"
       end
     end
 
