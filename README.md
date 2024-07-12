@@ -1,39 +1,33 @@
 # AutoSeed
 
-TODO: Delete this and the text below, and describe your gem
+AutoSeed is a Ruby on Rails gem that uses schema comments in the model to automatically generate seed files by running a rake task.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/auto_seed`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Features
+
+- Automatically generates seed data based on your Rails models and their schema comments.
+- Handles various associations, including `has_many`, `belongs_to`, `has_one`, and polymorphic associations.
+- Provides an easy-to-use rake task for seed generation.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Add this line to your application's Gemfile:
 
-Install the gem and add to the application's Gemfile by executing:
+```ruby
+gem 'auto_seed'
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
-If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
-## Usage
 
-TODO: Write usage instructions here
+## Explanation:
 
-## Development
+1. **Features**: Lists what the gem can do.
+2. **Installation**: Provides instructions for adding the gem to a Rails project.
+3. **Usage**: Explains how to use the rake task to generate seed files.
+4. **Example**: Demonstrates an example output of the generated seeds file.
+5. **Development**: Describes how to install the gem locally and release a new version.
+6. **Contributing**: Provides guidelines for contributing to the project.
+7. **License**: Mentions the project’s license.
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/auto_seed. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/auto_seed/blob/main/CODE_OF_CONDUCT.md).
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the AutoSeed project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/auto_seed/blob/main/CODE_OF_CONDUCT.md).
+Make sure to replace placeholders such as `your_username` with your actual GitHub username and adjust any other project-specific details as needed.
+```
