@@ -57,11 +57,10 @@ class Comment < ApplicationRecord
 end
 ```
 
-Running the rails db:generate_seeds task will generate a db/seeds.rb file similar to the following:
-
-### User seeds
+Running the `rails db:generate_seeds` task will generate a `db/seeds.rb` file similar to the following:
 
 ```
+## User seeds
 User.create!(
   id: 'sample_value',
   name: 'sample_value',
@@ -70,11 +69,8 @@ User.create!(
   updated_at: 'sample_value',
   posts: [Post.create!(...)],
 );
-```
 
-### Post seeds
-
-```
+## Post seeds
 Post.create!(
   id: 'sample_value',
   title: 'sample_value',
@@ -84,11 +80,8 @@ Post.create!(
   user: User.first,
   comments: [Comment.create!(...)],
 );
-```
 
-### Comment seeds
-
-```
+## Comment seeds
 Comment.create!(
   id: 'sample_value',
   content: 'sample_value',
@@ -145,7 +138,3 @@ Special thanks to all contributors and the open-source community.
 7. **License**: Mentions the project’s license.
 
 Make sure to replace placeholders such as `your_username` with your actual GitHub username and adjust any other project-specific details as needed.
-
-```
-
-```
