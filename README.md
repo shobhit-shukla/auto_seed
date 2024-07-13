@@ -1,6 +1,6 @@
 # AutoSeed
 
-AutoSeed is a Ruby on Rails gem that uses schema comments in the model to automatically generate seed files by running a rake task.
+AutoSeed is a Ruby on Rails gem that uses schema in the model to automatically generate seed files by running a rake task.
 
 ## Features
 
@@ -108,9 +108,9 @@ bundle exec rake release
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/your_username/auto_seed.
+Bug reports and pull requests are welcome on GitHub at https://github.com/shobhit-shukla/auto_seed.
 
-Fork it (https://github.com/your_username/auto_seed/fork)
+Fork it (https://github.com/shobhit-shukla/auto_seed/fork)
 
 Create your feature branch (git checkout -b my-new-feature)
 
@@ -124,7 +124,7 @@ Create a new Pull Request
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+Acknowledgements
 Special thanks to all contributors and the open-source community.
 
 ## Explanation:
