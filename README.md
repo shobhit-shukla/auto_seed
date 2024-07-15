@@ -18,13 +18,13 @@ gem 'auto_seed'
 
 And then execute:
 
-```
+```ruby
 bundle install
 ```
 
 Or install it yourself as:
 
-```
+```ruby
 gem install auto_seed
 ```
 
@@ -32,7 +32,7 @@ gem install auto_seed
 
 To generate the seed file, run the following rake task:
 
-```
+```ruby
 rails db:generate_seeds
 ```
 
@@ -42,7 +42,7 @@ This will create or overwrite the db/seeds.rb file with seed data based on your 
 
 Assume you have the following models:
 
-```
+```ruby
 class User < ApplicationRecord
   has_many :posts
 end
@@ -59,7 +59,7 @@ end
 
 Running the `rails db:generate_seeds` task will generate a `db/seeds.rb` file similar to the following:
 
-```
+```ruby
 ## User seeds
 User.create!(
   id: 'sample_value',
@@ -96,13 +96,13 @@ Comment.create!(
 
 To install this gem onto your local machine, run:
 
-```
+```ruby
 bundle exec rake install
 ```
 
 To release a new version, update the version number in version.rb, and then run:
 
-```
+```ruby
 bundle exec rake release
 ```
 
