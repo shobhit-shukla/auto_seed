@@ -136,5 +136,3 @@ Special thanks to all contributors and the open-source community.
 5. **Development**: Describes how to install the gem locally and release a new version.
 6. **Contributing**: Provides guidelines for contributing to the project.
 7. **License**: Mentions the project’s license.
-
-Make sure to replace placeholders such as `your_username` with your actual GitHub username and adjust any other project-specific details as needed.
